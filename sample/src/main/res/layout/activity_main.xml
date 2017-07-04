@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.applikeysolutions.sample.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_background" />
+
+
+
+    <com.applikeysolutions.sunstrike.view.AnimationLayout
+        android:id="@+id/animationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_view">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/big_width_view"
+            android:layout_height="@dimen/view_size">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hello!" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/big_width_view"
+            android:layout_height="@dimen/view_size">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="We're" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/big_width_view"
+            android:layout_height="@dimen/view_size">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="hidden" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/big_width_view"
+            android:layout_height="@dimen/view_size">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="views" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/big_width_view"
+            android:layout_height="@dimen/view_size">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Be happy!" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/big_width_view"
+            android:layout_height="@dimen/view_size">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="=)" />
+
+        </android.support.v7.widget.CardView>
+
+    </com.applikeysolutions.sunstrike.view.AnimationLayout>
+
+
+    <com.applikeysolutions.sunstrike.view.CustomSwitch
+        android:id="@+id/switchCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_view"
+        android:layout_toStartOf="@id/animationLayout" />
+
+    <com.applikeysolutions.sunstrike.view.CustomSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_view"
+        android:layout_toEndOf="@id/animationLayout" />
+</RelativeLayout>

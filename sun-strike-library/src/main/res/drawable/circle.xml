@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="@dimen/width_circle"
+                android:height="@dimen/height_circle" />
+        </shape>
+    </item>
+    <item
+        android:left="-5dp"
+        android:right="-5dp"
+        android:id="@+id/circle">
+        <shape>
+            <solid android:color="@color/colorProgress" />
+            <corners android:radius="@dimen/radius_circle" />
+        </shape>
+    </item>
+</layer-list>

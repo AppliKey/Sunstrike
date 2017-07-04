@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/margin_seekbar_progress"
+        android:drawable="@drawable/seekbar_background"
+        android:top="@dimen/margin_seekbar_progress" />
+    <item
+        android:id="@android:id/progress"
+        android:bottom="@dimen/margin_seekbar_progress"
+        android:top="@dimen/margin_seekbar_progress">
+        <clip android:drawable="@drawable/seekbar_progress" />
+    </item>
+</layer-list>

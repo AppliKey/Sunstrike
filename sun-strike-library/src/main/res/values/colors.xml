@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorProgress">#7986CB</color>
+    <color name="colorBackground">#C5CAE9</color>
+    <color name="colorChecked">#303F9F</color>
+    <color name="colorCircle">#1A237E</color>
+</resources>
