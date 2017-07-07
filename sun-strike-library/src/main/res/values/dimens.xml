@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_circle">10dp</dimen>
+    <dimen name="height_circle">20dp</dimen>
+    <dimen name="radius_circle">100dp</dimen>
+    <dimen name="width_seekbar">60dp</dimen>
+    <dimen name="margin_seekbar_progress">2dp</dimen>
+    <dimen name="radius_seekbar_progress">10dp</dimen>
+</resources>
